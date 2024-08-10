@@ -25,6 +25,7 @@
 //! error.
 
 #![cfg_attr(docsrs, feature(doc_cfg))]
+#![no_std]
 
 /// A prelude that re-exports all the traits in this crate.
 pub mod prelude {
