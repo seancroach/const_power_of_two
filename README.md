@@ -5,9 +5,7 @@
 [<img alt="docs.rs" src="https://img.shields.io/docsrs/const_power_of_two?style=for-the-badge&logo=docsdotrs" height="20">](https://docs.rs/const_power_of_two)
 [<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/seancroach/const_power_of_two/ci.yml?style=for-the-badge&logo=github" height="20">](https://github.com/seancroach/const_power_of_two/actions?query=branch%3Amain)
 
-
-
-A library for working with constant generics that are powers of two.
+A crate for working with constant generics that are powers of two.
 
 ## Usage
 
