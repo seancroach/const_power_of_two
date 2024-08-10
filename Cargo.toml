@@ -9,6 +9,14 @@ license = "MIT OR Apache-2.0"
 keywords = ["const", "generics", "no_std", "trait"]
 categories = ["no-std::no-alloc", "rust-patterns"]
 
+exclude = [
+    ".editorconfig",
+    ".gitattributes",
+    ".github/**",
+    ".gitignore",
+    "rustfmt.toml",
+]
+
 ################################################################################
 # Lint Configuration
 ################################################################################
