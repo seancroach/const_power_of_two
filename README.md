@@ -1,6 +1,6 @@
 # `const_power_of_two`
 
-[<img alt="Static Badge" src="https://img.shields.io/badge/github-seancroach%2Fconst__power__of__two-ab9df2?style=for-the-badge&logo=github" height="20">](https://github.com/seancroach/const_power_of_two)
+[<img alt="github" src="https://img.shields.io/badge/github-seancroach%2Fconst__power__of__two-ab9df2?style=for-the-badge&logo=github" height="20">](https://github.com/seancroach/const_power_of_two)
 [<img alt="crates.io" src="https://img.shields.io/crates/v/const_power_of_two?style=for-the-badge&logo=rust" height="20">](https://crates.io/crates/const_power_of_two)
 [<img alt="docs.rs" src="https://img.shields.io/docsrs/const_power_of_two?style=for-the-badge&logo=docsdotrs" height="20">](https://docs.rs/const_power_of_two)
 [<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/seancroach/const_power_of_two/ci.yml?style=for-the-badge&logo=github" height="20">](https://github.com/seancroach/const_power_of_two/actions?query=branch%3Amain)
