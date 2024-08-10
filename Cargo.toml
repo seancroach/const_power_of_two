@@ -1,0 +1,52 @@
+[package]
+name = "const_power_of_two"
+version = "0.1.0"
+authors = ["Sean C. Roach <me@seancroach.dev>"]
+edition = "2021"
+description = "A crate for working with constant generics that are powers of two."
+repository = "https://github.com/seancroach/const_power_of_two"
+license = "MIT OR Apache-2.0"
+keywords = ["const", "generics", "no_std", "trait"]
+categories = ["no-std::no-alloc", "rust-patterns"]
+
+################################################################################
+# Lint Configuration
+################################################################################
+
+[lints.rust]
+missing_docs = "deny"
+
+[lints.clippy]
+alloc_instead_of_core = "deny"
+doc_markdown = "allow"
+missing_safety_doc = "deny"
+multiple_unsafe_ops_per_block = "deny"
+pedantic = { level = "deny", priority = -1 }
+std_instead_of_alloc = "deny"
+std_instead_of_core = "deny"
+undocumented_unsafe_blocks = "deny"
+
+################################################################################
+# Build Dependencies
+################################################################################
+
+[build-dependencies.prettyplease]
+version = "0.2.20"
+
+[build-dependencies.proc-macro2]
+version = "1.0.86"
+
+[build-dependencies.quote]
+version = "1.0.36"
+
+[build-dependencies.syn]
+version = "2.0.72"
+default-features = false
+features = ["full", "parsing", "printing"]
+
+################################################################################
+# docs.rs Metadata
+################################################################################
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
