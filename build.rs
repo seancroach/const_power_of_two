@@ -1,7 +1,8 @@
-//! TODO
+//! The build script for the `const-power-of-two` crate.
 
 use core::ops::Range;
-use std::{env, fs, path::Path};
+use std::path::Path;
+use std::{env, fs};
 
 use proc_macro2::{Span, TokenStream};
 use quote::{quote, ToTokens, TokenStreamExt};

@@ -13,7 +13,7 @@ Add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-const_power_of_two = "0.1"
+const_power_of_two = "1"
 ```
 
 Then, import the corresponding trait for your argument type, and add it to your
@@ -22,14 +22,14 @@ trait or implementation's `where` bounds:
 ```rust
 use const_power_of_two::PowerOfTwoUsize;
 
-struct Test;
-
 trait MyTrait<const ALIGNMENT: usize>
 where
     usize: PowerOfTwoUsize<ALIGNMENT>,
 {
     // ...
 }
+
+struct Test;
 
 // NOTE: This is valid, and no error is emitted.
 impl MyTrait<4> for Test {}
@@ -42,6 +42,10 @@ The integer type is what implements the trait, as you can see above. It's not
 the most common Rust pattern, but it's easy to work with once you've seen it
 in action. At compile-time, if `ALIGNMENT` isn't a power of two, an error will
 get emitted.
+
+## Documentation
+
+You can view the documentation on docs.rs [here](https://docs.rs/const_power_of_two).
 
 ## License
 

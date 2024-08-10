@@ -1,6 +1,8 @@
 [package]
 name = "const_power_of_two"
-version = "0.1.1"
+# If you change the version, make sure to update the version in the README as
+# well.
+version = "1.0.0"
 authors = ["Sean C. Roach <me@seancroach.dev>"]
 edition = "2021"
 description = "A crate for working with constant generics that are powers of two."
